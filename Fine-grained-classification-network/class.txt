@@ -1,0 +1,7 @@
+Papillary carcinoma,0
+Follicular carcinoma,1
+Medullary carcinoma,2
+Nodular goiter,3
+Hashimoto's thyroiditis,4
+Adenoma,5
+Others,6
