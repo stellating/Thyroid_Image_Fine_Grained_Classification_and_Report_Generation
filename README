@@ -4,7 +4,7 @@ The development repository for fine grained classification and report generation
     • Caption-Model: Report generation model without triplet loss.
     • Caption-Triplet-Model: Report generation model with triplet loss.
     • ClassActivationMapping: CAM visualization.
-    • Flask-deploy-webapp: Web deployment of this project based on flask and html.
+    • flask-master: Web deployment of this project based on flask and html.
     • Fine-grained-classification-network: fine-grained classification network of thyroid US images.
 
 Step 1: Create a virtual enviroment
