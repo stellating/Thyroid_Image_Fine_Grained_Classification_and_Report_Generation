@@ -1,0 +1,20 @@
+The development repository for fine grained classification and report generation of Thyroid ultrasound images.
+    • Attribute_net: attributes recognition network.
+    • CaptionMetrics: caption metrics evaluation, including BLEU-1, BLEU-2, BLEU-3, BLEU-4, Cider, Meter, Rouge.
+    • Caption-Model: Report generation model without triplet loss.
+    • Caption-Triplet-Model: Report generation model with triplet loss.
+    • ClassActivationMapping: CAM visualization.
+    • Flask-deploy-webapp: Web deployment of this project based on flask and html.
+    • Fine-grained-classification-network: fine-grained classification network of thyroid US images.
+
+Step 1: Create a virtual enviroment
+
+conda env create -f pytorch.yaml
+conda activate thyroid
+
+Step 2: Run the website
+
+cd Flask-deploy-webapp
+python app.py
+
+Step 3: Open the website http://0.0.0.0:5000/
